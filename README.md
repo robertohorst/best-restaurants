@@ -14,4 +14,4 @@ costumer_rating | Integer | 1 - 5 stars
 cuisine_name | String | American,Chinese,Thai,Italian,French,Japanese,Turkish,Korean,Vietnamese,Indian,Spanish,Greek,Mexican,Malaysian,African,German,Indonesian,Russian,Other
 
 
-If the parameter is incorret or the value passed, the API will return an error with the problem.
+If the parameter name or the value passed are incorrect, the API will return an error with the problem.
