@@ -3,9 +3,9 @@ Search API
 
 ### GET http://localhost:8080/restaurants
 
-Valid query parameters (all parameters are optional):
+# Valid query parameters (all parameters are optional):
 
-**Name | Type | Description**
+Name | Type | Description
 ------ | ---- | -----------
 restaurantName | String | Name of the restaurant
 distance | Integer | 1 - 10 miles
