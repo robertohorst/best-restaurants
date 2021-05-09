@@ -7,8 +7,11 @@ Search API
 
 Name | Type | Description
 ------ | ---- | -----------
-restaurantName | String | Name of the restaurant
+restaurant_name | String | Name of the restaurant
 distance | Integer | 1 - 10 miles
-price | Integer | 10 - 50 USD per person
-costumer_rating | Integer | 1 - 5 
-cuisineName | String | American,Chinese,Thai,Italian,French,Japanese,Turkish,Korean,Vietnamese,Indian,Spanish,Greek,Mexican,Malaysian,African,German,Indonesian,Russian,Other
+price | Integer | $10 - $50 per person
+costumer_rating | Integer | 1 - 5 stars
+cuisine_name | String | American,Chinese,Thai,Italian,French,Japanese,Turkish,Korean,Vietnamese,Indian,Spanish,Greek,Mexican,Malaysian,African,German,Indonesian,Russian,Other
+
+
+If the parameter is incorret or the value passed, the API will return an error with the problem.
