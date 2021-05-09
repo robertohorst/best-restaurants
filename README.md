@@ -3,7 +3,7 @@ Search API
 
 ### GET http://localhost:8080/restaurants
 
-# Valid query parameters (all parameters are optional):
+#### Valid query parameters (all parameters are optional):
 
 Name | Type | Description
 ------ | ---- | -----------
