@@ -8,7 +8,7 @@ CREATE TABLE Restaurant
   cuisine_id BIGINT
 ) 
 AS 
-SELECT * FROM CSVREAD ('restaurants.csv');
+SELECT * FROM CSVREAD ('src/main/resources/static/restaurants.csv');
 
 DROP TABLE IF EXISTS Cuisine;
 CREATE TABLE Cuisine
@@ -17,4 +17,4 @@ CREATE TABLE Cuisine
   name varchar(100)
 ) 
 AS 
-SELECT * FROM CSVREAD ('cuisines.csv');
+SELECT * FROM CSVREAD ('src/main/resources/static/cuisines.csv');
