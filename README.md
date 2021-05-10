@@ -1,7 +1,7 @@
 ## best-restaurants
 Search API
 
-### GET http://localhost:8080/restaurants
+#### GET http://localhost:8080/restaurants
 
 #### Valid query parameters (all parameters are optional):
 
