@@ -2,9 +2,6 @@ package com.assessment.api.controller;
 
 import java.util.List;
 
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
