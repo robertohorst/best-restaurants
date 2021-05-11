@@ -1,6 +1,9 @@
 ## best-restaurants
 Search API
 
+#### Installing
+Clone the repository: https://github.com/robertohorst/best-restaurants.git
+
 #### GET http://localhost:8080/restaurants
 
 #### Valid query parameters (all parameters are optional):
